@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vloak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="nav-link active"
+            aria-current="page"
+            src="images/logo.png"
+            alt="logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+            <li class="nav-item">
+              <button class="waitlist">Join the Waitlist</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <button
+      class="btn btn-primary d-lg-none"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasResponsive"
+      aria-controls="offcanvasResponsive"
+    >
+      <span class="navbar-toggler-icon"
+        ><img src="images/menu.png" alt=""
+      /></span>
+    </button>
+
+    <div
+      class="offcanvas-lg offcanvas-end"
+      tabindex="-1"
+      id="offcanvasResponsive"
+      aria-labelledby="offcanvasResponsiveLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">
+          Responsive offcanvas
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          data-bs-target="#offcanvasResponsive"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          <ul>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+          </ul>
+          <ul>
+            <li><a href="#">Login</a></li>
+            <li><button class="waitlist">Join the Waitlist</button></li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+
+    <section class="hero1-section">
+      <div class="hero1-container">
+        <div class="hero1-content">
+          <div class="hero1-text-content">
+            <h1 class="hero1-title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit donec.
+            </h1>
+            <p class="hero1-description">
+              Vloak, where your entrepreneurial spirit meets expansive growth
+              opportunities. Our platform is designed not just for you to sell
+              your products independently, but to also thrive through
+              collaborative success.
+            </p>
+            <button class="waitlist">Join the Waitlist</button>
+          </div>
+        </div>
+        <div class="hero1-image">
+          <img class="h1-img" src="images/hero1.png" alt="Hero Image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="hero2-section">
+      <div class="hero2-container">
+        <h3>Vloak is proudly connected to the following partners:</h3>
+        <div class="hero2-partners">
+          <img src="images/meta.png" alt="" />
+          <img src="images/tiktok.png" alt="" />
+          <img src="images/mollie.png" alt="" />
+          <img src="images/pinterest.png" alt="" />
+          <img src="images/klarna.png" alt="" />
+          <img src="images/google.png" alt="" />
+          <img src="images/sgrid.png" alt="" />
+          <img src="images/klaviyo.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="hero3-section">
+      <div class="hero3-container">
+        <div class="hero3-content">
+          <div class="solution-section">
+            <h2 class="solution-title">
+              Solutions for <span class="merch">Merchants</span>
+            </h2>
+            <p class="solution-description">
+              Sell It Yourself: Harness the power of personal sales. Showcase
+              your products directly to your audience through your unique
+              channels, ensuring your vision and values shine through every
+              transaction. Your passion, your control.
+            </p>
+
+            <div class="feature-list">
+              <div class="feature-item">
+                <div><img class="check" src="images/check.png" alt="" /></div>
+                <h3>Expand Your Reach, Effortlessly</h3>
+              </div>
+              <div class="feature-item">
+                <div><img class="check" src="images/check.png" alt="" /></div>
+                <h3>Beyond Borders, Beyond Sales</h3>
+              </div>
+              <div class="feature-item">
+                <div><img class="check" src="images/check.png" alt="" /></div>
+                <h3>Your Business, Your Rules</h3>
+              </div>
+              <div class="feature-item">
+                <div><img class="check" src="images/check.png" alt="" /></div>
+                <h3>Button to merchants lander</h3>
+              </div>
+            </div>
+
+            <button class="learn-btn">Learn more</button>
+          </div>
+        </div>
+
+        <div class="hero3-content">
+          <div class="solution-section">
+            <h2 class="solution-title">
+              Solutions for <span class="affil">Affiliates</span>
+            </h2>
+            <p class="solution-description">
+              Benefit from Our Network: Expand your horizon. When you add your
+              products to our platform, you open the door to a network of
+              dedicated traffic partners and other merchants ready to elevate
+              your products to new audiences.
+            </p>
+
+            <div class="feature-list">
+              <div class="feature-item">
+                <div><img class="check" src="images/check.png" alt="" /></div>
+                <h3>Unleash Your Marketing Magic</h3>
+              </div>
+              <div class="feature-item">
+                <div><img class="check" src="images/check.png" alt="" /></div>
+                <h3>Build Your Future</h3>
+              </div>
+              <div class="feature-item">
+                <div><img class="check" src="images/check.png" alt="" /></div>
+                <h3>Join the Success Chain</h3>
+              </div>
+              <div class="feature-item">
+                <div><img class="check" src="images/check.png" alt="" /></div>
+                <h3>Button to affiliate lander</h3>
+              </div>
+            </div>
+
+            <div><button class="learn-more-btn">Learn more</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero4-section">
+      <div class="hero4-container">
+        <div class="hero4-content">
+          <div class="hero4-text-content">
+            <h1>Why Choose Vloak?</h1>
+            <p>
+              Vloak, where your entrepreneurial spirit meets expansive growth
+              opportunities. Our platform is designed not just for you to sell
+              your products independently, but to also thrive through
+              collaborative success
+            </p>
+            <p>
+              Sell It Yourself: Harness the power of personal sales. Showcase
+              your products directly to your audience through your unique
+              channels, ensuring your vision and values shine through every
+              transaction. Your passion, your control.
+            </p>
+            <p>
+              Benefit from Our Network: Expand your horizon. When you add your
+              products to our platform, you open the door to a network of
+              dedicated traffic partners and other merchants ready to elevate
+              your products to new audiences. Enjoy the multiplied efforts of
+              passionate sellers who are as invested in your success as you are.
+            </p>
+            <button class="custom-button">
+              Join the Waitlist
+              <div class="arrow-circle">&#10140;</div>
+            </button>
+          </div>
+        </div>
+        <div class="hero4-image">
+          <img class="h4-img" src="images/hero2.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="hero5-section">
+      <div class="hero5-container">
+        <div class="hero5-content">
+          <div class="hero5-image"><img src="images/Frame1.png" alt="" /></div>
+          <div class="hero5-text">
+            <h4>Lorem ipsum</h4>
+            <div class="price-info">
+              <div class="price-row">
+                <div class="price-label">MSRP:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+              <div class="price-row">
+                <div class="price-label">B2B:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+              <div class="price-row">
+                <div class="price-label">Commission:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero5-content">
+          <div class="hero5-image"><img src="images/Frame2.png" alt="" /></div>
+          <div class="hero5-text">
+            <h4>Lorem ipsum</h4>
+            <div class="price-info">
+              <div class="price-row">
+                <div class="price-label">MSRP:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+              <div class="price-row">
+                <div class="price-label">B2B:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+              <div class="price-row">
+                <div class="price-label">Commission:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero5-content">
+          <div class="hero5-image"><img src="images/Frame3.png" alt="" /></div>
+          <div class="hero5-text">
+            <h4>Lorem ipsum</h4>
+            <div class="price-info">
+              <div class="price-row">
+                <div class="price-label">MSRP:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+              <div class="price-row">
+                <div class="price-label">B2B:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+              <div class="price-row">
+                <div class="price-label">Commission:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero5-content">
+          <div class="hero5-image"><img src="images/Frame4.png" alt="" /></div>
+          <div class="hero5-text">
+            <h4>Lorem ipsum</h4>
+            <div class="price-info">
+              <div class="price-row">
+                <div class="price-label">MSRP:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+              <div class="price-row">
+                <div class="price-label">B2B:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+              <div class="price-row">
+                <div class="price-label">Commission:</div>
+                <div class="price-value">$25.99</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero6-section">
+      <div class="hero6-container">
+        <div class="hero6-grid-cont">
+          <div class="hero6-grid">
+            <div class="hero6-item">
+              <div><img src="images/Vec1.png" alt="" /></div>
+              <h4>Easy checkout creation</h4>
+              <p>create wishlists, single products, upsells</p>
+            </div>
+            <div class="hero6-item">
+              <div><img src="images/Vec3.png" alt="" /></div>
+              <h4>All-in-one solution</h4>
+              <p>payments, fulfillment, customer care</p>
+            </div>
+          </div>
+
+          <div class="hero6-grid">
+            <div class="hero6-item">
+              <div><img src="images/Vec2.png" alt="" /></div>
+              <h4>Cross selling merchants</h4>
+              <p>Sell other merchants products</p>
+            </div>
+
+            <div class="hero6-item">
+              <div><img src="images/Vec4.png" alt="" /></div>
+              <h4>Real-time performance tracking</h4>
+              <p>Different reporting dashboards</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero6-click">
+          <button class="waitlist">Join the Waitlist</button>
+          <h5>
+            Don't reinvent the wheel and let us take care of all the hassles
+            that come with selling your products online.
+          </h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero7-section"></section>
+
+    <section class="hero8-section">
+      <div class="hero8-container">
+        <p class="hero8-text">Support</p>
+        <h2 class="hero8-faq-title">Frequently asked questions</h2>
+        <h5 class="hero8-faq-description">
+          Everything you need to know about the product and billing. Can’t find
+          the answer you’re looking for? Please chat to our friendly team.
+        </h5>
+      </div>
+
+      <div class="hero8-faq-cont">
+        <div class="hero8-faq">
+          <div class="hero8-text-content">
+            <div class="hero8-faq-item">
+              <div class="hero8-faq-icon">
+                <img src="images/Icon1.png" alt="" />
+              </div>
+              <div class="hero8-faq-details">
+                <h5>Is there a free trial available?</h5>
+                <p>
+                  Yes, you can try us for free for 30 days. Our friendly team
+                  will work with you to get you up and running as soon as
+                  possible.
+                </p>
+              </div>
+            </div>
+            <div class="hero8-faq-item">
+              <div class="hero8-faq-icon">
+                <img src="images/Icon2.png" alt="" />
+              </div>
+              <div class="hero8-faq-details">
+                <h5>Can I change my plan later?</h5>
+                <p>
+                  Of course. Our pricing scales with your company. Chat to our
+                  friendly team to find a solution that works for you.
+                </p>
+              </div>
+            </div>
+            <div class="hero8-faq-item">
+              <div class="hero8-faq-icon">
+                <img src="images/Icon3.png" alt="" />
+              </div>
+              <div class="hero8-faq-details">
+                <h5>What is your cancellation policy?</h5>
+                <p>
+                  We understand that things change. You can cancel your plan at
+                  any time and we’ll refund you the difference already paid.
+                </p>
+              </div>
+            </div>
+            <div class="hero8-faq-item">
+              <div class="hero8-faq-icon">
+                <img src="images/Icon4.png" alt="" />
+              </div>
+              <div class="hero8-faq-details">
+                <h5>Can other info be added to an invoice?</h5>
+                <p>
+                  At the moment, the only way to add additional information to
+                  invoices is to add the information to the workspace's name.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero8-image">
+          <img class="h8-img" src="images/hero3.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="hero9-section">
+      <div class="hero9-container">
+        <div class="hero9-img"><img src="images/avatar.png" alt="" /></div>
+        <h5>Still have Questions?</h5>
+        <h6>
+          Can’t find the answer you’re looking for? Please chat to our friendly
+          team.
+        </h6>
+        <button class="waitlist">Get in touch</button>
+      </div>
+    </section>
+
+    <footer class="hero-footer">
+      <div class="hero-footer-container">
+        <div class="hero-footer-section">
+          <div class="hero-footer-logo">
+            <div><img src="images/logo.png" alt="" /></div>
+            <p>Vloak is a full service checkout builder</p>
+            <div class="hero-footer-social-icons">
+              <div><img src="images/ig.png" alt="" /></div>
+              <div><img src="images/linkedin.png" alt="" /></div>
+              <div><img src="images/thread.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-footer-section">
+          <div class="hero-footer-info">
+            <div class="hero-footer-text">
+              <h3>More Info</h3>
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+              </ul>
+            </div>
+            <div class="hero-footer-text">
+              <h3>Company</h3>
+              <ul>
+                <li>hello@vloak.com</li>
+                <li>020 3086 060</li>
+              </ul>
+            </div>
+            <div class="hero-footer-text">
+              <h3>Contact</h3>
+              <ul>
+                <li>Kraijenhoffstraat 137A 1018RG Amsterdam</li>
+                <li>VAT: NL858207801B01</li>
+                <li>COC: 70238642</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="trademark">© 2023 Vloak, Inc.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

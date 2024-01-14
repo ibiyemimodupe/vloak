@@ -1,0 +1,604 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+/* NAVIGATION */
+.navbar {
+  max-width: 1440px;
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  background-color: white !important;
+}
+.navbar-brand img {
+  max-height: 40px;
+}
+.navbar-nav {
+  margin-left: auto; /* Move the navigation items to the right */
+}
+.navbar-nav a {
+  color: #314351;
+  font-family: "Roboto", sans-serif;
+  font-size: 500;
+  margin-right: 15px;
+}
+.navbar-nav a:hover {
+  color: #f07243;
+}
+.navbar-collapse a:hover {
+  color: #f07243;
+}
+.waitlist {
+  width: 180px;
+  height: 44px;
+  border-radius: 38px;
+  border: none;
+  background: #f07243;
+  color: white;
+}
+.navbar-expand-lg .navbar-collapse {
+  background-color: #ffffff;
+  z-index: 1000;
+}
+
+/* HERO ONE */
+.hero1-section {
+  max-width: 1440px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.hero1-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.hero1-content,
+.hero1-image {
+  width: 50%;
+}
+.hero1-text-content {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  padding-top: 20%;
+}
+.h1-img {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.hero1-title {
+  color: #1d2b36;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+.hero1-description {
+  color: #314351;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* HERO TWO */
+.hero2-section {
+  max-width: 1440px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.hero2-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero2-container h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.hero2-partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 31px;
+}
+.hero2-partners img {
+  max-width: 179px;
+  height: auto;
+}
+
+/* HERO THREE */
+.hero3-section {
+  max-width: 1440px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.hero3-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.solution-section {
+  width: 480px;
+  height: 580px;
+  border-radius: 16px;
+  padding: 40px 32px 40px 32px;
+  border: 1.5px solid #e5e5e5;
+}
+.solution-title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 40.32px;
+}
+.affil {
+  color: #00944a;
+  font-weight: 600;
+}
+.merch {
+  font-weight: 600;
+  color: #442a93;
+}
+.solution-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 20px;
+}
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.feature-list {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.feature-item h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.check {
+  width: 26px;
+  height: 26px;
+}
+.learn-more-btn {
+  width: 100%;
+  margin: auto;
+  height: 56px;
+  border: none;
+  border-radius: 38px;
+  box-shadow: 3.990000009536743px 6.170000076293945px 13.460000038146973px 0px
+    #2e34791f;
+  background-color: #00944a;
+  color: white;
+}
+.learn-btn {
+  width: 100%;
+  margin: auto;
+  height: 56px;
+  border: none;
+  border-radius: 38px;
+  box-shadow: 3.990000009536743px 6.170000076293945px 13.460000038146973px 0px
+    #2e34791f;
+  background-color: #442a93;
+  color: white;
+}
+
+/* HERO FOUR */
+.hero4-section {
+  max-width: 1440px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.hero4-container {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.hero4-content,
+.hero4-image {
+  width: 50%;
+}
+.hero4-text-content {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+}
+.h4-img {
+  width: 100%;
+  max-width: 584px;
+  margin: 0 auto;
+}
+.hero4-text-content h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.hero4-text-content p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.custom-button {
+  width: 262px;
+  height: 60px;
+  border-radius: 38px;
+  padding-right: 45px;
+  position: relative;
+  background-color: #f07243;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  left: 204px;
+  border-radius: 30px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f07243;
+}
+
+/* HERO FIVE */
+.hero5-section {
+  max-width: 1440px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.hero5-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+}
+.hero5-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+}
+.hero5-image img {
+  width: 240px;
+  height: 240px;
+}
+.hero5-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.hero5-text {
+  padding-left: 20px;
+}
+.price-info {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+.price-row {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+}
+.price-label {
+  color: #314351;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+.price-value {
+  color: #00944a;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+
+/* HERO SIX */
+.hero6-section {
+  max-width: 1440px;
+  margin: auto;
+}
+.hero6-container {
+  background-image: url("images/herobg.png");
+  width: 100%;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero6-item {
+  width: 100%;
+}
+.hero6-item img {
+  width: 50px;
+  height: 50px;
+}
+.hero6-item h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.hero6-item p {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.hero6-click {
+  text-align: center;
+  padding-top: 5rem;
+}
+.hero6-click h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+}
+.hero6-grid-cont {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+.hero6-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+/* HERO SEVEN */
+
+/* HERO EIGHT */
+.hero8-section {
+  max-width: 1440px;
+  margin: auto;
+  /* padding-bottom: 50px; */
+}
+.hero8-container {
+  width: 80%;
+  margin: auto;
+}
+.hero8-faq-cont {
+  display: flex;
+  padding-top: 75px;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.hero8-faq,
+.hero8-image {
+  width: 50%;
+}
+.h8-img {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.hero8-faq-icon {
+  width: 48px;
+  /* height: 48px; */
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #eaecf0;
+  align-items: center;
+}
+.hero8-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #f07243;
+  padding-top: 60px;
+}
+.hero8-faq-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.hero8-faq-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.hero8-text-content {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+}
+.hero8-faq-item {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+}
+.hero8-faq-details h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.hero8-faq-details p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* HERO NINE */
+.hero9-section {
+  max-width: 1440px;
+  margin: auto;
+  padding-bottom: 96px;
+}
+.hero9-container {
+  text-align: center;
+  background-color: #f9fafb;
+  width: 90%;
+  margin: auto;
+  padding: 32px 32px 40px 32px;
+  border-radius: 32px;
+  gap: 32px;
+}
+.hero9-container h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  padding-top: 32px;
+}
+.hero9-container h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background: #d2e1e880;
+  color: #314351;
+  /* height: 300px; */
+}
+.hero-footer-container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 60px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.hero-footer-social-icons {
+  display: flex;
+  gap: 10px;
+}
+.hero-footer-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.hero-footer-info {
+  display: flex;
+  gap: 20px;
+}
+.hero-footer-text {
+  flex: 1;
+  text-decoration: none;
+}
+.hero-footer-text ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.hero-footer-logo p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.hero-footer-text h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 21px;
+  color: #1f2937;
+}
+.trademark {
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-bottom: 0 !important;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
