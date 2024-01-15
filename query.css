@@ -45,6 +45,9 @@
   .hero1-container {
     display: block;
   }
+  .hero1-section {
+    padding-bottom: 30px;
+}
   .hero1-content,
   .hero1-image {
     width: 100%;
@@ -52,9 +55,6 @@
   .hero1-text-content {
     text-align: center;
     padding-top: 10%;
-  }
-  .hero5-section {
-    display: none;
   }
   .h1-img {
     max-width: 100% !important;
@@ -82,8 +82,14 @@
     padding-top: 24px;
   }
   .hero-footer-social-icons img {
-    width: 60px;
+    width: 50px;
     height: auto;
+  }
+  .hero-footer-text h3 {
+    padding-bottom: 11px;
+  }
+  .hero-footer-social-icons {
+    gap: 44px;
   }
 }
 
@@ -103,11 +109,18 @@
     gap: 20px;
   }
   .hero8-faq-item {
-   padding-bottom: 1.5rem;
-}
-.hero6-grid {
-  gap: 50px;
-}
+    padding-bottom: 1.5rem;
+  }
+  .hero6-grid {
+    gap: 50px;
+  }
+  .hero5-content {
+    display: block;
+  }
+  .hero1-description {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
 }
 
 /*small phones (0px to 480px) */
@@ -116,13 +129,22 @@
   .hero8-image {
     display: none;
   }
+  .hero8-text-content {
+    width: 90%;
+}
   .hero4-container {
     padding: 30px;
+  }
+  .hero9-section {
+    padding-bottom: 46px;
 }
 }
 
 @media only screen and (max-width: 320px) {
   .hero4-container {
     padding: 10px;
-}
+  }
+  .hero-footer-social-icons {
+    gap: 14px;
+  }
 }
