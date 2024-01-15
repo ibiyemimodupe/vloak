@@ -1,0 +1,128 @@
+/*big tablet to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+}
+
+/*small tablet to big tablet (768px to 1023px) */
+@media only screen and (max-width: 1023px) {
+  .hero6-container {
+    background-image: url(images/herobg2.png);
+    width: 100%;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero3-container {
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+  }
+  .hero3-content {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hero8-faq-cont {
+    display: block;
+    padding-top: 50px;
+  }
+  .hero8-faq,
+  .hero8-image {
+    width: 100%;
+  }
+  .hero4-container {
+    display: block;
+  }
+  .hero4-content,
+  .hero4-image {
+    width: 100%;
+  }
+  .hero4-text-content {
+    width: 100%;
+    padding-bottom: 32px;
+  }
+  .hero1-container {
+    display: block;
+  }
+  .hero1-content,
+  .hero1-image {
+    width: 100%;
+  }
+  .hero1-text-content {
+    text-align: center;
+    padding-top: 10%;
+  }
+  .hero5-section {
+    display: none;
+  }
+  .h1-img {
+    max-width: 100% !important;
+  }
+}
+
+/*small phone to small tablet (481px to 767px) */
+@media only screen and (max-width: 768px) {
+  .hero9-container {
+    padding: 32px 0;
+  }
+  .hero-footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 0 32px;
+  }
+  .hero-footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .hero-footer-info {
+    display: block;
+  }
+  .hero-footer-text {
+    padding-top: 24px;
+  }
+  .hero-footer-social-icons img {
+    width: 60px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .hero6-grid-cont {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    padding-top: 3rem;
+  }
+  .hero8-container {
+    width: 90%;
+    margin: auto;
+  }
+  .hero2-partners {
+    gap: 20px;
+  }
+  .hero8-faq-item {
+   padding-bottom: 1.5rem;
+}
+.hero6-grid {
+  gap: 50px;
+}
+}
+
+/*small phones (0px to 480px) */
+@media only screen and (max-width: 480px) {
+  .hero8-faq-icon,
+  .hero8-image {
+    display: none;
+  }
+  .hero4-container {
+    padding: 30px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  .hero4-container {
+    padding: 10px;
+}
+}
