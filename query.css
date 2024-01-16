@@ -22,6 +22,18 @@
   }
 }
 
+@media only screen and (max-width: 990px) {
+  .navbar-toggler {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+  }
+  .navbar {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .hero8-faq-cont {
     display: block;
@@ -47,7 +59,7 @@
   }
   .hero1-section {
     padding-bottom: 30px;
-}
+  }
   .hero1-content,
   .hero1-image {
     width: 100%;
@@ -115,8 +127,8 @@
     gap: 50px;
   }
   .hero6-item {
-  text-align: center;
-}
+    text-align: center;
+  }
   .hero5-content {
     display: block;
   }
@@ -134,13 +146,26 @@
   }
   .hero8-text-content {
     width: 90%;
-}
+  }
   .hero4-container {
     padding: 30px;
   }
   .hero9-section {
     padding-bottom: 46px;
-}
+  }
+  .mb-waitlist {
+    width: 120px;
+  }
+  .navbar-brand img {
+    width: 106.26px;
+    height: 26px;
+  }
+  .custom-button {
+    width: 200px;
+  }
+  .arrow-circle {
+    left: 144px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -149,5 +174,14 @@
   }
   .hero-footer-social-icons {
     gap: 14px;
+  }
+  .navbar-brand img {
+    width: 86.26px;
+    height: auto;
+  }
+  .mb-waitlist {
+    width: 80px;
+    height: auto;
+    font-size: 10px;
   }
 }

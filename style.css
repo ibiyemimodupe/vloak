@@ -28,7 +28,7 @@ h6 {
   max-height: 40px;
 }
 .navbar-nav {
-  margin-left: auto; /* Move the navigation items to the right */
+  margin-left: auto; 
 }
 .navbar-nav a {
   color: #314351;
@@ -57,15 +57,57 @@ h6 {
   text-align: center;
   padding: 2rem 0;
 }
-.container-fluid {
-  --bs-gutter-x: 0 !important;
-  --bs-gutter-y: 0 !important;
-  width: 100% !important;
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  margin-right: 0 !important;
-  margin-left: 0 !important;
+.offcanvas-body {
+  padding: 20px;
 }
+.offcanvas-body div {
+  display: flex;
+  flex-direction: column;
+}
+
+.offcanvas-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.offcanvas-body li {
+  margin: 8px 0;
+  padding: 0;
+}
+.offcanvas-body a {
+  text-decoration: none;
+  color: #314351; 
+}
+.offcanvas-body a:hover {
+  color: #f07243;
+}
+.mobile-menu{
+  display: none;
+}
+.mb-waitlist {
+  width: 180px;
+  height: 44px;
+  border-radius: 38px;
+  padding: 0 3px;
+  border: none;
+  background: #f07243;
+  color: white;
+}
+.btn-primary {
+  --bs-btn-bg: white !important;
+  --bs-btn-border-color: none !important;
+}
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: inherit; 
+}
+.btn-primary:active {
+  background-color: transparent !important;
+}
+
+
 
 /* HERO ONE */
 .hero1-section {
@@ -107,6 +149,7 @@ h6 {
   line-height: 24px;
 }
 
+
 /* HERO TWO */
 .hero2-section {
   max-width: 1440px;
@@ -137,6 +180,7 @@ h6 {
   max-width: 179px;
   height: auto;
 }
+
 
 /* HERO THREE */
 .hero3-section {
@@ -226,6 +270,7 @@ h6 {
   color: white;
 }
 
+
 /* HERO FOUR */
 .hero4-section {
   max-width: 1440px;
@@ -280,7 +325,6 @@ h6 {
   border: none;
   cursor: pointer;
 }
-
 .arrow-circle {
   position: absolute;
   width: 50px;
@@ -294,6 +338,7 @@ h6 {
   justify-content: center;
   color: #f07243;
 }
+
 
 /* HERO FIVE */
 .hero5-section {
@@ -392,6 +437,7 @@ h6 {
   background-color: #f07243;
 }
 
+
 /* HERO SIX */
 .hero6-section {
   max-width: 1440px;
@@ -449,6 +495,7 @@ h6 {
   flex-direction: column;
   gap: 100px;
 }
+
 
 /* HERO SEVEN */
 .hero7-section {
@@ -527,11 +574,11 @@ h6 {
   padding-bottom: 4rem;
 }
 
+
 /* HERO EIGHT */
 .hero8-section {
   max-width: 1440px;
   margin: auto;
-  /* padding-bottom: 50px; */
 }
 .hero8-container {
   width: 80%;
@@ -555,7 +602,6 @@ h6 {
 }
 .hero8-faq-icon {
   width: 48px;
-  /* height: 48px; */
   padding: 12px;
   border-radius: 10px;
   border: 1px solid #eaecf0;
@@ -610,6 +656,7 @@ h6 {
   text-align: left;
 }
 
+
 /* HERO NINE */
 .hero9-section {
   max-width: 1440px;
@@ -641,6 +688,7 @@ h6 {
   padding-top: 8px;
   padding-bottom: 32px;
 }
+
 
 /* FOOTER */
 footer {
