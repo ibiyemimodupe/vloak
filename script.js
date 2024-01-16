@@ -25,3 +25,27 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
   });
+
+  var swiper = new Swiper(".mySwiper2", {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 5,
+    },
+    540: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+  });
