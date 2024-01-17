@@ -28,7 +28,7 @@ h6 {
   max-height: 40px;
 }
 .navbar-nav {
-  margin-left: auto; 
+  margin-left: auto;
 }
 .navbar-nav a {
   color: #314351;
@@ -76,12 +76,12 @@ h6 {
 }
 .offcanvas-body a {
   text-decoration: none;
-  color: #314351; 
+  color: #314351;
 }
 .offcanvas-body a:hover {
   color: #f07243;
 }
-.mobile-menu{
+.mobile-menu {
   display: none;
 }
 .mb-waitlist {
@@ -101,13 +101,11 @@ h6 {
 .btn-primary:active,
 .btn-primary:hover {
   background-color: transparent;
-  border-color: inherit; 
+  border-color: inherit;
 }
 .btn-primary:active {
   background-color: transparent !important;
 }
-
-
 
 /* HERO ONE */
 .hero1-section {
@@ -138,7 +136,7 @@ h6 {
   margin: 0 auto;
 }
 .hero1-title {
-  color: #1d2b36;
+  /* color: #1d2b36; */
   font-family: "Outfit", sans-serif;
   font-weight: 700;
 }
@@ -148,7 +146,6 @@ h6 {
   font-weight: 400;
   line-height: 24px;
 }
-
 
 /* HERO TWO */
 .hero2-section {
@@ -180,7 +177,6 @@ h6 {
   max-width: 179px;
   height: auto;
 }
-
 
 /* HERO THREE */
 .hero3-section {
@@ -221,7 +217,7 @@ h6 {
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
   padding-top: 20px;
 }
 .feature-item {
@@ -241,7 +237,7 @@ h6 {
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
 }
 .check {
   width: 26px;
@@ -269,7 +265,6 @@ h6 {
   background-color: #442a93;
   color: white;
 }
-
 
 /* HERO FOUR */
 .hero4-section {
@@ -304,14 +299,14 @@ h6 {
   font-weight: 700;
   line-height: 50px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
 }
 .hero4-text-content p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
 }
 .custom-button {
   width: 262px;
@@ -338,7 +333,6 @@ h6 {
   justify-content: center;
   color: #f07243;
 }
-
 
 /* HERO FIVE */
 .hero5-section {
@@ -437,7 +431,6 @@ h6 {
   background-color: #f07243;
 }
 
-
 /* HERO SIX */
 .hero6-section {
   max-width: 1440px;
@@ -450,6 +443,7 @@ h6 {
   min-height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .hero6-item {
   width: 100%;
@@ -480,6 +474,7 @@ h6 {
   line-height: 31px;
   letter-spacing: 0em;
   margin-top: 1rem;
+  padding: 0 1.5rem;
 }
 .hero6-grid-cont {
   width: 90%;
@@ -496,12 +491,19 @@ h6 {
   gap: 100px;
 }
 
-
 /* HERO SEVEN */
 .hero7-section {
   max-width: 1440px;
   margin: auto;
   padding-bottom: 3rem;
+}
+.hero7-section h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 52px;
 }
 .hero7-content {
   position: relative;
@@ -574,7 +576,6 @@ h6 {
   padding-bottom: 4rem;
 }
 
-
 /* HERO EIGHT */
 .hero8-section {
   max-width: 1440px;
@@ -646,16 +647,15 @@ h6 {
   font-weight: 600;
   line-height: 30px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
 }
 .hero8-faq-details p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
 }
-
 
 /* HERO NINE */
 .hero9-section {
@@ -688,7 +688,6 @@ h6 {
   padding-top: 8px;
   padding-bottom: 32px;
 }
-
 
 /* FOOTER */
 footer {
@@ -735,7 +734,7 @@ footer {
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
 }
 .hero-footer-logo p {
   font-family: "Roboto", sans-serif;
@@ -743,7 +742,7 @@ footer {
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
   margin-top: 16px;
   margin-bottom: 32px;
 }
@@ -753,7 +752,7 @@ footer {
   font-weight: 600;
   line-height: 20px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
   padding-bottom: 21px;
   color: #1f2937;
 }
@@ -766,4 +765,163 @@ footer {
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
+}
+
+/* MERCHANT PAGE */
+.feature-item p {
+  margin-bottom: 0 !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.merchant-features {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.cta-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 1rem;
+}
+.cta-section p {
+  margin-bottom: 0 !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.merchant1-text-content {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  padding-top: 10%;
+}
+.merchant2-section {
+  max-width: 1440px;
+  margin: auto;
+}
+.merchant2-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 30px 0;
+}
+.merchant2-image,
+.merchant2-content {
+  width: 50%;
+}
+.merch4 {
+  padding-top: 4rem;
+  padding-bottom: 1.5rem;
+}
+.merchant2-details {
+  padding: 40px 0 0 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.merchant2-features {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.merchant3-details {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.merchant8-details {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.merchant8-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+.merchant8-checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.checkout-section {
+  max-width: 1440px;
+  margin: auto;
+}
+.checkout-container {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+.checkout-container h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+}
+.checkout-funnel-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 0;
+  gap: 50px;
+}
+.checkout-item h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+.checkout-item {
+  max-width: 225px;
+}
+
+.purple {
+  background-image: url("images/merch8.png");
+  width: 100%;
+  min-height: 486px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.purple-text {
+  padding-left: 7rem;
+  padding-top: 8rem;
+  box-sizing: border-box;
+}
+.purple-text h3 {
+  max-width: 526px;
+  padding-bottom: 1.5rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+.purple-waitlist {
+  width: 300px;
+  height: 60px;
+  border-radius: 38px;
+  padding: 0 3px;
+  border: 2px solid #FFFFFF;
+  background: transparent;
+  color: white;
 }

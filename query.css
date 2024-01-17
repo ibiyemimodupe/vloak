@@ -6,10 +6,7 @@
 @media only screen and (max-width: 1024px) {
   .hero6-container {
     background-image: url(images/herobg2.png);
-    width: 100%;
-    min-height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: 70% 25%; */
   }
   .hero3-container {
     flex-direction: column;
@@ -71,6 +68,25 @@
   .h1-img {
     max-width: 100% !important;
   }
+
+  /* MERCHANT */
+  .merchant2-container {
+    flex-direction: column-reverse;
+    display: block;
+  }
+  .merchant2-image,
+  .merchant2-content {
+    width: 100%;
+  }
+  .merchant2-details, .merchant3-details {
+    padding: 0;
+  }
+  .merch5{
+    display: none;
+  }
+  .merchant8-container{
+    display: block;
+  }
 }
 
 /*small phone to small tablet (481px to 767px) */
@@ -81,27 +97,28 @@
   .hero-footer-container {
     flex-direction: column;
     align-items: center;
-    padding: 60px 0 0 32px;
+    padding: 40px 20px;
   }
-  .hero-footer-section {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .hero-footer-info {
-    display: block;
-  }
-  .hero-footer-text {
-    padding-top: 24px;
+
+  .hero-footer-logo {
+    align-items: center;
+    text-align: center;
   }
   .hero-footer-social-icons img {
     width: 50px;
     height: auto;
   }
-  .hero-footer-text h3 {
-    padding-bottom: 11px;
+  .hero-footer-section {
+    width: 100%;
+    margin-bottom: 20px;
   }
   .hero-footer-social-icons {
     gap: 44px;
+  }
+  .hero-footer-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -136,13 +153,23 @@
     margin-bottom: 2rem;
     margin-top: 1rem;
   }
+
+  .merchant8-checkout{
+    display: block;
+  }
+
+  .purple-text {
+    padding-left:0;
+    width: 80%;
+    margin: auto;
+    padding-top: 8rem; 
+  }
 }
 
 /*small phones (0px to 480px) */
 @media only screen and (max-width: 480px) {
-  .hero8-faq-icon,
-  .hero8-image {
-    display: none;
+  .hero8-faq-item {
+    flex-direction: column;
   }
   .hero8-text-content {
     width: 90%;

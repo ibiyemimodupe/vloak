@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vloak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="nav-link active"
+            aria-current="page"
+            src="images/logo.png"
+            alt="logo"
+          />
+        </a>
+
+        <div class="mobile-menu">
+          <button class="mb-waitlist">Join Now</button>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas-lg offcanvas-end"
+            data-bs-scroll="true"
+            tabindex="-1"
+            id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                <img src="images/logo.png" alt="logo" />
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <ul>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQ</a>
+                  </li>
+                  <li><a href="#">Login</a></li>
+                  <li><button class="waitlist">Join the Waitlist</button></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse desktop-menu"
+          id="navbarNavAltMarkup"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+            <li class="nav-item">
+              <button class="waitlist">Join the Waitlist</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero1-section">
+      <div class="hero1-container">
+        <div class="hero1-content">
+          <div class="merchant1-text-content">
+            <h1 class="hero1-title">What does Vloak offer merchants?</h1>
+            <div class="merchant-features">
+              <div class="feature-item">
+                <div><img src="images/CheckIcon.png" alt="Check Icon" /></div>
+                <p>Checkout builder</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/CheckIcon.png" alt="Check Icon" /></div>
+                <p>
+                  Server tracking solution for Meta, Pinterest, TikTok, Google
+                  GA4 and GTM
+                </p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/CheckIcon.png" alt="Check Icon" /></div>
+                <p>Transactional emails through Sendgrid</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/CheckIcon.png" alt="Check Icon" /></div>
+                <p>Klaviyo email marketing integration</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/CheckIcon.png" alt="Check Icon" /></div>
+                <p>Social media links</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/CheckIcon.png" alt="Check Icon" /></div>
+                <p>Direct PSP integration with Mollie and Klarna</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/CheckIcon.png" alt="Check Icon" /></div>
+                <p>One-off purchases and subscriptions</p>
+              </div>
+            </div>
+            <div class="cta-section">
+              <button class="waitlist">Join the Waitlist</button>
+              <p>Explore More Features</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero1-image">
+          <img class="h1-img" src="images/merch1.png" alt="Hero Image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="hero2-section">
+      <div class="hero2-container">
+        <h3>Vloak is proudly connected to the following partners:</h3>
+        <div class="hero2-partners">
+          <img src="images/meta.png" alt="" />
+          <img src="images/tiktok.png" alt="" />
+          <img src="images/mollie.png" alt="" />
+          <img src="images/pinterest.png" alt="" />
+          <img src="images/klarna.png" alt="" />
+          <img src="images/google.png" alt="" />
+          <img src="images/sgrid.png" alt="" />
+          <img src="images/klaviyo.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="merchant2-section">
+      <div class="merchant2-container">
+        <div class="merchant2-image">
+          <img class="h8-img" src="images/merch2.png" alt="Merchant 2 Image" />
+        </div>
+
+        <div class="merchant2-content">
+          <div class="merchant2-details">
+            <h1 class="hero1-title">Detailed order overview</h1>
+            <div class="merchant2-features">
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Customer details</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Items bought divided by direct and post purchases</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Shipping method used + tracking info</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Total amount charged</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Payment details and status</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>PSP costs</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Fulfilment cost</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Invoice in PDF</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Possibility to refund customers directly</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Comment section for internal use</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="merchant2-section">
+      <div class="merchant2-container">
+        <div class="merchant3-details">
+          <h1 class="hero1-title">Dashboard filter options</h1>
+          <div class="merchant2-features">
+            <div class="feature-item">
+              <div><img src="images/vec5.png" alt="Check Icon" /></div>
+              <p>Preselected time period or custom time</p>
+            </div>
+            <div class="feature-item">
+              <div><img src="images/vec5.png" alt="Check Icon" /></div>
+              <p>Checkout</p>
+            </div>
+            <div class="feature-item">
+              <div><img src="images/vec5.png" alt="Check Icon" /></div>
+              <p>Country</p>
+            </div>
+            <div class="feature-item">
+              <div><img src="images/vec5.png" alt="Check Icon" /></div>
+              <p>Tracker</p>
+            </div>
+          </div>
+        </div>
+        <div class="merchant2-image merch5">
+          <img class="h8-img" src="images/merch3.png" alt="Merchant 2 Image" />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="merchant2-section"
+      style="background-color: #e78764; color: white"
+    >
+      <div class="merchant2-container">
+        <div class="merchant2-image merch4">
+          <img class="h8-img" src="images/merch4.png" alt="Merchant 2 Image" />
+        </div>
+
+        <div class="merchant2-content">
+          <div class="merchant2-details">
+            <h1 class="hero1-title">Dashboard report selection</h1>
+            <div class="merchant2-features">
+              <div class="feature-item">
+                <div><img src="images/vec6.png" alt="Check Icon" /></div>
+                <p>Order overview</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec6.png" alt="Check Icon" /></div>
+                <p>Total revenue (incl. and excl. VAT)</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec6.png" alt="Check Icon" /></div>
+                <p>Average cost per sale</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec6.png" alt="Check Icon" /></div>
+                <p>Average margin per sale</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec6.png" alt="Check Icon" /></div>
+                <p>Average cost per sale</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec6.png" alt="Check Icon" /></div>
+                <p>
+                  Subscription stats for new users, rebills and unsubscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="merchant2-section">
+      <div class="hero1-container">
+        <div class="hero1-content">
+          <div class="merchant1-text-content">
+            <h1 class="hero1-title">
+              Sales tracking management, Subscription data, Ticket system
+            </h1>
+            <div class="merchant2-features">
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Create unique trackers for different traffic sources</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Add unique UTM parameters to collect specific data</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Postback URL for server side tracking with third parties</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Standard setups for Google, Meta, TikTok and Pinterest</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Overview of subscription related orders</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Status updates</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Last charge and next charge overview</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Manage tickets from customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero1-image merch5">
+          <img class="h1-img" src="images/merch5.png" alt="Hero Image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="merchant2-section">
+      <div class="merchant2-container">
+        <div class="merchant2-image">
+          <img class="h8-img" src="images/merch6.png" alt="Merchant 2 Image" />
+        </div>
+
+        <div class="merchant2-content">
+          <div class="merchant2-details">
+            <h1 class="hero1-title">Order management</h1>
+            <div class="merchant2-features">
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Detailed order list of all orders incl basic info</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Direct overview of payment and shipping status</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Search bar based on order, customer or tracking data</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="checkout-section">
+        <div class="checkout-container">
+            <h1>Checkout funnel</h1>
+            <div class="checkout-funnel-items">
+                <div class="checkout-item">
+                    <div><img src="images/vec7.png" alt=""></div>
+                    <h6>Create checkouts in minutes</h6>
+                </div>
+                <div class="checkout-item">
+                    <div><img src="images/vec8.png" alt=""></div>
+                    <h6>Main product + variants on multiple items 
+                    </h6>
+                </div>
+                <div class="checkout-item">
+                    <div><img src="images/vec9.png" alt="im"></div>
+                    <h6>1-click upsells</h6>
+                </div>
+                <div class="checkout-item">
+                    <div><img src="images/vec10.png" alt=""></div>
+                    <h6>Post upsells connected to other checkouts</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="merchant2-section">
+      <div class="merchant8-container">
+        <div class="merchant8-details">
+          <h2 class="hero1-title">Multilanguage checkout builder</h2>
+          <div class="merchant8-checkout">
+            <div class="merchant2-features">
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>SEO texts</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>FAQ section</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Custom color settings</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Unique header image</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Subscription frequencies</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Active country selection</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Manual conversion booster</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Custom thank you and error page builder</p>
+              </div>
+            </div>
+            <div class="merchant2-features">
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>USP icons for Customer Care, Shipping time and Returns</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Language selection for 1 or multiple languages</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>
+                  Custom price settings based on variants incl. labels and
+                  preselection
+                </p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Payment method selections per country</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Shipping provider settings per checkout</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Shipping cost setup incl. minimum order value</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>Pre upsell and post upsell configuration</p>
+              </div>
+              <div class="feature-item">
+                <div><img src="images/vec5.png" alt="Check Icon" /></div>
+                <p>
+                  Tracking link creation incl. commission model based on a fix
+                  fee or on %
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="merchant2-image ">
+          <img class="h8-img" src="images/merch7.png" alt="Merchant 2 Image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="merchant2-section purple">
+        <div class="purple-text">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur.</h3>
+            <button class="purple-waitlist">Join the Waitlist</button>
+        </div>
+    </section>
+
+    <footer class="hero-footer">
+      <div class="hero-footer-container">
+        <div class="hero-footer-section">
+          <div class="hero-footer-logo">
+            <div><img src="images/logo.png" alt="" /></div>
+            <p>Vloak is a full service checkout builder</p>
+            <div class="hero-footer-social-icons">
+              <div><img src="images/ig.png" alt="" /></div>
+              <div><img src="images/linkedin.png" alt="" /></div>
+              <div><img src="images/thread.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-footer-section">
+          <div class="hero-footer-info">
+            <div class="hero-footer-text">
+              <h3>More Info</h3>
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+              </ul>
+            </div>
+            <div class="hero-footer-text">
+              <h3>Company</h3>
+              <ul>
+                <li>hello@vloak.com</li>
+                <li>020 3086 060</li>
+              </ul>
+            </div>
+            <div class="hero-footer-text">
+              <h3>Contact</h3>
+              <ul>
+                <li>Kraijenhoffstraat 137A 1018RG Amsterdam</li>
+                <li>VAT: NL858207801B01</li>
+                <li>COC: 70238642</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="trademark">© 2023 Vloak, Inc.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

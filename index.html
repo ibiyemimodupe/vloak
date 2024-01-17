@@ -38,29 +38,30 @@
         <div class="mobile-menu">
           <button class="mb-waitlist">Join Now</button>
           <button
-            class="btn btn-primary d-lg-none"
+            class="btn btn-primary "
             type="button"
             data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasResponsive"
-            aria-controls="offcanvasResponsive"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
             class="offcanvas-lg offcanvas-end"
+            data-bs-scroll="true"
             tabindex="-1"
-            id="offcanvasResponsive"
-            aria-labelledby="offcanvasResponsiveLabel"
+            id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel"
           >
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
                 <img src="images/logo.png" alt="logo" />
               </h5>
               <button
                 type="button"
                 class="btn-close"
                 data-bs-dismiss="offcanvas"
-                data-bs-target="#offcanvasResponsive"
+                data-bs-target="#offcanvasWithBothOptions"
                 aria-label="Close"
               ></button>
             </div>
@@ -76,8 +77,6 @@
                   <li>
                     <a href="#">FAQ</a>
                   </li>
-                </ul>
-                <ul>
                   <li><a href="#">Login</a></li>
                   <li><button class="waitlist">Join the Waitlist</button></li>
                 </ul>
@@ -193,7 +192,7 @@
               </div>
             </div>
 
-            <button class="learn-btn">Learn more</button>
+            <button type="button" onclick="window.location.href='merchant.html'" class="learn-btn">Learn more</button>
           </div>
         </div>
 
@@ -463,6 +462,7 @@
     </section>
 
     <section class="hero7-section">
+      <h1>Our Blogs</h1>
       <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
