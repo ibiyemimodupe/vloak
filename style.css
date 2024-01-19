@@ -139,12 +139,14 @@ h6 {
   /* color: #1d2b36; */
   font-family: "Outfit", sans-serif;
   font-weight: 700;
+  padding-bottom: 1rem;
 }
 .hero1-description {
   color: #314351;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 24px;
+  padding-bottom: 1rem;
 }
 
 /* HERO TWO */
@@ -299,6 +301,7 @@ h6 {
   font-weight: 700;
   line-height: 50px;
   letter-spacing: 0em;
+  padding-bottom: 1rem;
   /* text-align: left; */
 }
 .hero4-text-content p {
@@ -692,7 +695,7 @@ h6 {
 /* FOOTER */
 footer {
   width: 100%;
-  background: #d2e1e880;
+  background: #F7F9FF;
   color: #314351;
 }
 .hero-footer-container {
