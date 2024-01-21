@@ -64,14 +64,29 @@
   .h1-img {
     max-width: 100% !important;
   }
+  .hero1-title {
+    text-align: center;
+  }
 
   /* MERCHANT */
   .merchant2-container {
-    flex-direction: column-reverse;
-    display: block;
+    flex-direction: column;
+    /* display: block; */
   }
+  .flip{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .merch52{
+    padding-left: 4rem;
+    box-sizing: border-box;
+  }
+  .merchant5-details {
+    padding: 0;
+}
   .merchant2-image,
-  .merchant2-content {
+  .merchant2-content,
+  .merchant3-details  {
     width: 100%;
   }
   .merchant2-details,
@@ -118,15 +133,21 @@
     text-align: center;
   }
 }
-@media (min-width: 680px) and (max-width: 880px){
+@media (min-width: 0px) and (max-width: 880px){
+  .purple{
+    display: block;
+    background-size: auto;
+  }
+  .purple-img{
+    display: none;
+  }
   .purple-text {
-    padding-left: 5rem;
-    padding-top: 5rem;
-  }
-  .purple-text h3{
-    font-size: 20px;
-    line-height: 26px;
-  }
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    height:250px;
+    text-align: center;
+}
 }
 @media only screen and (max-width: 680px) {
   .hero6-grid-cont {
@@ -163,21 +184,6 @@
   .merchant8-checkout {
     display: block;
   }
-  .purple-text {
-    padding-left: 2rem;
-    /* width: 80%;
-    margin: auto; */
-    padding-top: 4rem;
-  }
-  .purple-waitlist {
-    width: 80%;
-    height: 30px;
-  }
-  .purple-text h3 {
-    font-size: 20px;
-    line-height: 26px;
-    padding-bottom: 0.5rem;
-  }
 }
 
 /*small phones (0px to 480px) */
@@ -195,7 +201,7 @@
     padding-bottom: 46px;
   }
   .mb-waitlist {
-    width: 120px;
+    width: 160px;
   }
   .navbar-brand img {
     width: 106.26px;
@@ -213,13 +219,6 @@
   .cta-section p {
     font-size: 15px;
     text-align: center;
-  }
-  .purple-text{
-    padding-top: 3rem;
-  }
-  .purple-text h3 {
-    font-size: 15px;
-    line-height: normal;
   }
 }
 @media (min-width: 0px) and (max-width: 360px){
@@ -251,19 +250,13 @@
   }
   .purple-waitlist {
     width: 80%;
+    font-size: 15px;
   }
   .purple {
     height: auto;
   }
-  .purple-text{
-    padding-top: 2rem;
-  }
   .purple-text h3 {
-    font-size: 10px;
-    line-height: normal;
-  }
-  .purple-waitlist{
-    font-size: 10px;
+    font-size: 15px;
   }
   .container-fluid {
     width: 100%;
