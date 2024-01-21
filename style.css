@@ -829,7 +829,8 @@ footer {
   padding: 30px 0;
 }
 .merchant2-image,
-.merchant3-details, .merchant2-content {
+.merchant3-details,
+.merchant2-content {
   width: 50%;
 }
 .merch4 {
@@ -927,7 +928,7 @@ footer {
   display: flex;
   justify-content: space-around;
 }
-.purple-img{
+.purple-img {
   width: 50%;
 }
 .purple-text {
@@ -936,7 +937,7 @@ footer {
   padding-top: 8rem;
   box-sizing: border-box;
 }
-.p-img{
+.p-img {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
@@ -958,4 +959,24 @@ footer {
   border: 2px solid #ffffff;
   background: transparent;
   color: white;
+}
+
+.affiliate-cont {
+  text-align: center;
+  margin-top: 50px;
+}
+.affiliate-cont h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  padding-bottom: 22px;
+  letter-spacing: 0em;
+}
+.affiliate-cont p {
+  max-width: 804px;
+  margin: auto;
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding:0 20px 44px 20px;
 }
