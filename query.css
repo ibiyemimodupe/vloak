@@ -155,9 +155,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    row-gap: 50px;
     padding-top: 3rem;
   }
+  .v-img {
+    max-width: 171px;
+    padding: 30px 0;
+}
   .hero8-container {
     width: 90%;
     margin: auto;
@@ -202,10 +205,6 @@
   }
   .mb-waitlist {
     width: 160px;
-  }
-  .navbar-brand img {
-    width: 106.26px;
-    height: 26px;
   }
   .custom-button {
     width: 200px;
