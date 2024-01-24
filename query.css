@@ -132,6 +132,9 @@
     align-items: center;
     text-align: center;
   }
+  .blogpage-cont {
+    padding: 0 20px;
+}
 }
 @media (min-width: 0px) and (max-width: 880px){
   .purple{
@@ -219,6 +222,12 @@
     font-size: 15px;
     text-align: center;
   }
+  .article-meta{
+    flex-direction: column;
+    align-items:  start;
+    gap: 12px;
+    padding-left: 10px;
+  }
 }
 @media (min-width: 0px) and (max-width: 360px){
   .waitlist {
@@ -264,4 +273,8 @@
     font-size: 10px;
     text-align: center;
   }
+  .blog-conclusion {
+    padding: 2px;
+    font-size: 12px;
+}
 }

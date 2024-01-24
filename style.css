@@ -65,7 +65,7 @@ h6 {
   text-align: center;
   /* padding: 2rem 0; */
 }
-.offcanvas-title img{
+.offcanvas-title img {
   width: 100%;
   max-width: 163.48px;
   height: 80px;
@@ -973,6 +973,8 @@ footer {
   margin-top: 50px;
 }
 .affiliate-cont h1 {
+  max-width: 880px;
+  margin: auto;
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   padding-bottom: 22px;
@@ -981,9 +983,131 @@ footer {
 .affiliate-cont p {
   max-width: 804px;
   margin: auto;
-  font-family: 'Inter',sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  padding:0 20px 44px 20px;
+  padding: 0 20px 44px 20px;
+}
+/* BLOG PAGE */
+.blog-col {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #f07243;
+}
+.b1-img-cont {
+  width: 90%;
+  margin: auto;
+}
+.b1-img {
+  width: 100%;
+  max-width: 1216px;
+  margin: 0 auto;
+}
+.b2-img {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.blogpage-cont {
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+  margin: auto;
+  gap: 40px;
+  /* padding: 0 20px; */
+}
+.blogpage-cont h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  padding-bottom: 24px;
+}
+
+.blogpage-cont p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-bottom: 0 !important;
+}
+#pub2 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #314351b2;
+}
+.blogpage-cont h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  padding-bottom: 24px;
+}
+.bloglink-cont {
+  display: flex;
+  gap: 6px;
+  padding-top: 10px;
+  color: #475467;
+}
+.pub {
+  color: #475467;
+}
+.quote-container {
+  border-left: 2px solid #f07243;
+  height: auto;
+}
+.quote-title {
+  padding: 0 20px;
+}
+#quote-text {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #1d2b36;
+}
+#quote-author {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #475467;
+}
+.blog-conclusion {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #f9fafb;
+}
+.article-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author-info,
+.social-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.link-social {
+  display: flex;
+  gap: 6px;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+}
+#pub3 {
+  font-family: 'Roboto',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
 }
