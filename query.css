@@ -1,5 +1,16 @@
 /*big tablet to 1200px (width smaller than the 1140px row) */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1160px) {
+  .pricing-merchant-content {
+    padding: 10px;
+    justify-content: center;
+  }
+  .pricing-affiliate-content {
+    padding: 10px;
+    justify-content: center;
+  }
+  .pricing-merchant-text {
+    padding-top: 52px;
+}
 }
 
 /*small tablet to big tablet (768px to 1023px) */
@@ -73,20 +84,20 @@
     flex-direction: column;
     /* display: block; */
   }
-  .flip{
+  .flip {
     display: flex;
     flex-direction: column-reverse;
   }
-  .merch52{
+  .merch52 {
     padding-left: 4rem;
     box-sizing: border-box;
   }
   .merchant5-details {
     padding: 0;
-}
+  }
   .merchant2-image,
   .merchant2-content,
-  .merchant3-details  {
+  .merchant3-details {
     width: 100%;
   }
   .merchant2-details,
@@ -134,23 +145,23 @@
   }
   .blogpage-cont {
     padding: 0 20px;
+  }
 }
-}
-@media (min-width: 0px) and (max-width: 880px){
-  .purple{
+@media (min-width: 0px) and (max-width: 880px) {
+  .purple {
     display: block;
     background-size: auto;
   }
-  .purple-img{
+  .purple-img {
     display: none;
   }
   .purple-text {
     width: 80%;
     margin: auto;
     padding: 30px 0;
-    height:250px;
+    height: 250px;
     text-align: center;
-}
+  }
 }
 @media only screen and (max-width: 680px) {
   .hero6-grid-cont {
@@ -163,7 +174,7 @@
   .v-img {
     max-width: 171px;
     padding: 30px 0;
-}
+  }
   .hero8-container {
     width: 90%;
     margin: auto;
@@ -222,23 +233,27 @@
     font-size: 15px;
     text-align: center;
   }
-  .article-meta{
+  .article-meta {
     flex-direction: column;
-    align-items:  start;
+    align-items: start;
     gap: 12px;
     padding-left: 10px;
   }
+  .pricing-cont {
+    width: 80%;
+    margin: auto;
+  }
 }
-@media (min-width: 0px) and (max-width: 360px){
+@media (min-width: 0px) and (max-width: 360px) {
   .waitlist {
     width: 220px;
     height: 44px;
     padding: 0;
-    border-radius: 26.4px;    
+    border-radius: 26.4px;
     border: none;
     background: #f07243;
     color: white;
-}
+  }
 }
 @media only screen and (max-width: 320px) {
   .hero4-container {
@@ -256,7 +271,7 @@
     height: auto;
     font-size: 10px;
   }
-  .purple-waitlist {  
+  .purple-waitlist {
     width: 80%;
     font-size: 15px;
   }
@@ -276,5 +291,5 @@
   .blog-conclusion {
     padding: 2px;
     font-size: 12px;
-}
+  }
 }

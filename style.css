@@ -1105,9 +1105,125 @@ footer {
   border-radius: 8px;
 }
 #pub3 {
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
   letter-spacing: 0em;
+}
+/* PRICING */
+.pricing-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.pricing-portrait {
+  width: 387.71px;
+  min-height: 600px;
+  padding: 37.8px 26.1px 0px 25.19px;
+  border-radius: 18px;
+  background-color: #f07243;
+  color: white;
+}
+.portrait {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portrait img {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 287.94px;
+}
+.pricing-portrait span {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+}
+.pricing-portrait h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  padding-bottom: 12px;
+}
+.pricing-portrait p {
+  font-family: sans-serif;
+  /* font-size: 14px; */
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.pricing-merchant {
+  width: 390px;
+  min-height: 600px;
+  padding: 28.32px 22.85px 36.31px 23.15px;
+  border-radius: 20px;
+  border: 1.5px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.pricing-merchant p {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.pricing-feature-list {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.pricing-merchant h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+}
+.pricing-merchant-content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f7f8fd;
+  border-radius: 24px;
+  gap: 20px;
+  padding: 0px 31px 10px 100px;
+}
+.pricing-affiliate-content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  background-color: #f7f8fd;
+  border-radius: 24px;
+  gap: 20px;
+  padding: 0px 60px 0px 31px;
+}
+.pricing-merchant-text {
+  max-width: 516px;
+  padding-top: 82px;
+}
+.pricing-merchant-text h2 {
+  font-family: 'Inter',sans-serif;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  padding-bottom: 24px;
+}
+.merchant-illustration img {
+  max-width: 380px;
+  width: 100%;
+  margin: 0 auto;
+}
+.merchant-affiliate img {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
 }

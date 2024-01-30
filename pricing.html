@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vloak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="nav-link active"
+            aria-current="page"
+            src="images/logo.svg"
+            alt="logo"
+          />
+        </a>
+
+        <div class="mobile-menu">
+          <button class="mb-waitlist">Join Now</button>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas-lg offcanvas-end"
+            data-bs-scroll="true"
+            tabindex="-1"
+            id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                <img src="images/logo.svg" alt="logo" />
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <ul>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQ</a>
+                  </li>
+                  <li><a href="#">Login</a></li>
+                  <li><button class="waitlist">Join the Waitlist</button></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse desktop-menu"
+          id="navbarNavAltMarkup"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+            <li class="nav-item">
+              <button class="mb-waitlist">Join the Waitlist</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero8-section">
+      <div class="affiliate-cont">
+        <h6 class="blog-col">PRICING</h6>
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p class="pub">Vloak’s features. No credit card required.</p>
+      </div>
+    </section>
+
+    <section class="hero2-section">
+      <div class="pricing-cont">
+        <div class="pricing-portrait">
+          <h2>Get The Best Services With <span>Vloak</span>.</h2>
+          <p>
+            Lorem ipsum dolor sit amet, constadip iscing elit porttitor eu
+            convallis sit amet semper eget mauris
+          </p>
+          <div class="portrait"><img src="images/portrait.svg" alt="" /></div>
+        </div>
+        <div class="pricing-merchant">
+          <h4 class="merch">Merchant</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit donec
+            consectetur semper nunc in molestie.
+          </p>
+          <h6>US$9.95</h6>
+          <p>Per month, cancel anytime</p>
+          <p>What You'll Get</p>
+          <div class="pricing-feature-list">
+            <div class="feature-item">
+              <div><img class="check" src="images/checks.svg" alt="" /></div>
+              <p>Lorem ipsum dolor sit amet, consecte adipiscin.</p>
+            </div>
+            <div class="feature-item">
+              <div><img class="check" src="images/checks.svg" alt="" /></div>
+              <p>Lorem ipsum dolor sit amet, consecte adipiscin.</p>
+            </div>
+            <div class="feature-item">
+              <div><img class="check" src="images/checks.svg" alt="" /></div>
+              <p>Lorem ipsum dolor sit amet, consecte adipiscin.</p>
+            </div>
+            <div class="feature-item">
+              <div><img class="check" src="images/checks.svg" alt="" /></div>
+              <p>Lorem ipsum dolor sit amet, consecte adipiscin.</p>
+            </div>
+            <div class="feature-item">
+              <div><img class="check" src="images/checks.svg" alt="" /></div>
+              <p>Lorem ipsum dolor sit amet, consecte adipiscin.</p>
+            </div>
+
+            <button type="button" class="learn-btn">Lorem Ipsum</button>
+          </div>
+        </div>
+        <div class="pricing-merchant">
+          <h4 class="affil">Affiliate</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit donec
+            consectetur semper nunc in molestie.
+          </p>
+          <h6>US$0</h6>
+          <p>Free of charge</p>
+          <p>What You'll Get</p>
+          <div class="pricing-feature-list">
+            <div class="feature-item">
+              <div><img class="check" src="images/check-G.svg" alt="" /></div>
+              <p>Lorem ipsum dolor sit amet, consecte adipiscin.</p>
+            </div>
+            <div class="feature-item">
+              <div><img class="check" src="images/check-G.svg" alt="" /></div>
+              <p>Lorem ipsum dolor sit amet, consecte adipiscin.</p>
+            </div>
+            <div class="feature-item">
+              <div><img class="check" src="images/check-G.svg" alt="" /></div>
+              <p>Lorem ipsum dolor sit amet, consecte adipiscin.</p>
+            </div>
+            <div class="feature-item">
+              <div><img class="check" src="images/check-G.svg" alt="" /></div>
+              <p>Lorem ipsum dolor sit amet, consecte adipiscin.</p>
+            </div>
+            <div class="feature-item">
+              <div><img class="check" src="images/check-G.svg" alt="" /></div>
+              <p>Lorem ipsum dolor sit amet, consecte adipiscin.</p>
+            </div>
+
+            <button type="button" class="learn-more-btn">Sign Up Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero2-section">
+      <div class="pricing-merchant-content">
+        <div class="pricing-merchant-text">
+          <h2>Merchant</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit donec
+            consectetur semper nunc in molestie. sed velit lectus, porttitor eu
+            convallis sit amet, semper eget mauris. Integer in pulvinar mauris.
+            Donec facilisis placerat magna sed cursus. Mauris vel tristique
+            arcu. Duis congue orci id libero dictum sollicitudin. Curabitur
+            dapibus arcu leo, condimentum tempus augue condimentum sed. Aliquam
+            sed auctor.
+          </p>
+        </div>
+        <div class="merchant-illustration">
+          <img src="images/Illustration.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="hero2-section">
+      <div class="pricing-affiliate-content">
+        <div class="merchant-affiliate">
+          <img src="images/affiliate.svg" alt="" />
+        </div>
+        <div class="pricing-merchant-text">
+          <h2>Affiliate</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit donec
+            consectetur semper nunc in molestie. sed velit lectus, porttitor eu
+            convallis sit amet, semper eget mauris. Integer in pulvinar mauris.
+            Donec facilisis placerat magna sed cursus. Mauris vel tristique
+            arcu. Duis congue orci id libero dictum sollicitudin. Curabitur
+            dapibus arcu leo, condimentum tempus augue condimentum sed. Aliquam
+            sed auctor.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero8-section">
+      <div class="hero8-container">
+        <p class="hero8-text">Support</p>
+        <h2 class="hero8-faq-title">Frequently asked questions</h2>
+        <h5 class="hero8-faq-description">
+          Everything you need to know about the product and billing. Can’t find
+          the answer you’re looking for? Please
+          <u style="text-decoration: black underline"
+            >chat to our friendly team.</u
+          >
+        </h5>
+      </div>
+
+      <div class="hero8-faq-cont">
+        <div class="hero8-faq">
+          <div class="hero8-text-content">
+            <div class="hero8-faq-item">
+              <div class="hero8-faq-icon">
+                <img src="images/Icon1.svg" alt="" />
+              </div>
+              <div class="hero8-faq-details">
+                <h5>Is there a free trial available?</h5>
+                <p>
+                  Yes, you can try us for free for 30 days. Our friendly team
+                  will work with you to get you up and running as soon as
+                  possible.
+                </p>
+              </div>
+            </div>
+            <div class="hero8-faq-item">
+              <div class="hero8-faq-icon">
+                <img src="images/Icon2.svg" alt="" />
+              </div>
+              <div class="hero8-faq-details">
+                <h5>Can I change my plan later?</h5>
+                <p>
+                  Of course. Our pricing scales with your company. Chat to our
+                  friendly team to find a solution that works for you.
+                </p>
+              </div>
+            </div>
+            <div class="hero8-faq-item">
+              <div class="hero8-faq-icon">
+                <img src="images/Icon3.svg" alt="" />
+              </div>
+              <div class="hero8-faq-details">
+                <h5>What is your cancellation policy?</h5>
+                <p>
+                  We understand that things change. You can cancel your plan at
+                  any time and we’ll refund you the difference already paid.
+                </p>
+              </div>
+            </div>
+            <div class="hero8-faq-item">
+              <div class="hero8-faq-icon">
+                <img src="images/Icon4.svg" alt="" />
+              </div>
+              <div class="hero8-faq-details">
+                <h5>Can other info be added to an invoice?</h5>
+                <p>
+                  At the moment, the only way to add additional information to
+                  invoices is to add the information to the workspace's name.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero8-image">
+          <img class="h8-img" src="images/hero3.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="hero9-section">
+      <div class="hero9-container">
+        <div class="hero9-img"><img src="images/avatar.svg" alt="" /></div>
+        <h5>Still have Questions?</h5>
+        <h6>
+          Can’t find the answer you’re looking for? Please chat to our friendly
+          team.
+        </h6>
+        <button class="waitlist">Get in touch</button>
+      </div>
+    </section>
+
+    <footer class="hero-footer">
+      <div class="hero-footer-container">
+        <div class="hero-footer-section">
+          <div class="hero-footer-logo">
+            <div class="navbar-brand"><img src="images/logo.svg" alt="" /></div>
+            <p>Vloak is a full service checkout builder</p>
+            <div class="hero-footer-social-icons">
+              <div><img src="images/ig.svg" alt="" /></div>
+              <div><img src="images/linkedin.svg" alt="" /></div>
+              <div><img src="images/thread.svg" alt="" /></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-footer-section">
+          <div class="hero-footer-info">
+            <div class="hero-footer-text">
+              <h3>More Info</h3>
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+              </ul>
+            </div>
+            <div class="hero-footer-text">
+              <h3>Company</h3>
+              <ul>
+                <li>hello@vloak.com</li>
+                <li>020 3086 060</li>
+              </ul>
+            </div>
+            <div class="hero-footer-text">
+              <h3>Contact</h3>
+              <ul>
+                <li>Kraijenhoffstraat 137A 1018RG Amsterdam</li>
+                <li>VAT: NL858207801B01</li>
+                <li>COC: 70238642</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="trademark">© 2023 Vloak, Inc.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
