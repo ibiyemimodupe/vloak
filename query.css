@@ -10,7 +10,7 @@
   }
   .pricing-merchant-text {
     padding-top: 52px;
-}
+  }
 }
 
 /*small tablet to big tablet (768px to 1023px) */
@@ -27,11 +27,55 @@
 }
 
 @media only screen and (max-width: 990px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
   .navbar-toggler {
     display: none;
   }
   .mobile-menu {
+    display: block;
+    position: fixed;
+    left: -100%;
+    top: 100px;
+    gap: 0;
+    flex-direction: column;
+    background: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #c9c9c9;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+  .mobile-menu.active {
+    padding-left: 0;
+    left: 0;
+    height: 100%;
+    z-index: 555;
+  }
+  .mobile-menu-list {
+    display: block;
+    margin: 0.5rem 0;
+    height: 100vh;
+    z-index: 555;
+  }
+  .list {
     display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 0 !important;
+  }
+  .mb-log {
+    display: block;
   }
   .navbar {
     width: 100%;
@@ -82,7 +126,6 @@
   /* MERCHANT */
   .merchant2-container {
     flex-direction: column;
-    /* display: block; */
   }
   .flip {
     display: flex;
