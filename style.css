@@ -17,11 +17,10 @@ h6 {
   margin-bottom: 0 !important;
 }
 
-
 /* NAVIGATION */
 .hamburger {
   display: none;
-  padding-right: 1rem;
+  padding-left: 1.5rem;
   cursor: pointer;
 }
 .bar {
@@ -33,7 +32,7 @@ h6 {
   transition: all 0, 3s ease-in-out;
   background: black;
 }
-.mobile-menu-list{
+.mobile-menu-list {
   display: none;
 }
 .mobile-menu-list li {
@@ -43,8 +42,20 @@ h6 {
   text-decoration: none;
   color: black;
 }
-.mb-log{
+.mb-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mb-log {
   display: none;
+  text-decoration: none;
+  color: #314351;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
 }
 .mobile-menu {
   display: none;
@@ -490,7 +501,7 @@ h6 {
 }
 .v-img {
   width: 100%;
-  /* max-width: 271px; */
+  max-width: 271px;
   margin: 0 auto;
 }
 
@@ -1193,7 +1204,7 @@ footer {
   padding-top: 82px;
 }
 .pricing-merchant-text h2 {
-  font-family: 'Inter',sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   line-height: 44px;
   letter-spacing: 0em;

@@ -287,7 +287,7 @@
     margin: auto;
   }
 }
-@media (min-width: 0px) and (max-width: 360px) {
+@media (min-width: 0px) and (max-width: 376px) {
   .waitlist {
     width: 220px;
     height: 44px;
@@ -297,6 +297,11 @@
     background: #f07243;
     color: white;
   }
+  .navbar-brand img {
+    height: 40px;
+    max-width: 104px;
+    width: 100%;
+}
 }
 @media only screen and (max-width: 320px) {
   .hero4-container {
@@ -305,14 +310,9 @@
   .hero-footer-social-icons {
     gap: 14px;
   }
-  .navbar-brand img {
-    width: 86.26px;
-    height: auto;
-  }
   .mb-waitlist {
-    width: 80px;
+    width: 100px;
     height: auto;
-    font-size: 10px;
   }
   .purple-waitlist {
     width: 80%;
